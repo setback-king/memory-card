@@ -96,7 +96,7 @@ hr {
 }
 
 img {
-  height: 100px;
+  height: 85px;
   margin-top: 5px;
   
 
@@ -114,6 +114,7 @@ img {
   border: 1px solid #c0c49b;
   background-color: #c0c49b;
   border-radius: 2em;
+  padding: 7px;
 
 }
 
