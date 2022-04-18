@@ -18,6 +18,7 @@ body {
   align-items: center;
   background-color: #c0c49b;
   height: 100vh;
+
   
 
  
@@ -27,6 +28,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   flex: 1;
   background-color: #3A887C;
@@ -45,14 +47,15 @@ body {
 }
 
 .title {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 0;
 
 }
 
 .instructions {
-  font-size: 17px;
-  min-width: 45%
+  font-size: 20px;
+  min-width: 45%;
+  margin-bottom: 0;
  
 }
 
@@ -64,11 +67,12 @@ hr {
   
   border: solid #c0c49b 4px;
   border-radius: 2em;
-  margin-top: 35px;
+  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+ 
 
   
 }
@@ -76,7 +80,7 @@ hr {
 .header {
   display: flex;
   gap: 80px;
-  margin-top: 20px;
+  margin-top: 10px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -101,8 +105,8 @@ img {
 .card {
   display: flex;
   flex-direction: column;
-  height: 150px;
-  width: 150px;
+  height: 135px;
+  width: 135px;
   justify-content: center;
   align-items: center;
   gap: 20px;
@@ -123,10 +127,13 @@ img {
 .score {
   display: flex;
   flex-wrap: wrap;
-  gap: 175px;
-  font-size: 30px;
+  gap: 150px;
+  font-size: 24px;
   color: #d5dcdc;
-  margin-top: 45px;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
+  margin-top: 30px;
+  margin-bottom: 0;
+ 
+  
 }

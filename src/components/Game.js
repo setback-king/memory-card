@@ -76,9 +76,10 @@ const Game = () => {
 
     return (
         <div className="main">
-            <CardContainer flowerArray={flowers} clickCard={clickCard} />
-            <Score score={score} savedScore={bestScore}/>
             
+            <CardContainer flowerArray={flowers} clickCard={clickCard} />  
+            <Score score={score} savedScore={bestScore}/>
+           
         </div>
     )
 }
