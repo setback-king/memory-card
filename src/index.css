@@ -8,6 +8,7 @@ body {
   min-height: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 .App {
@@ -17,6 +18,9 @@ body {
   border: solid black 1px;
   background-color: #c0c49b;
   height: 100vh;
+  width: 100vh;
+ 
+ 
 }
 
 .main {
@@ -48,6 +52,7 @@ body {
 .instructions {
   font-size: 17px;
   width: 550px;
+ 
 }
 
 hr {
@@ -63,8 +68,6 @@ hr {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  
-
 }
 
 .header {
@@ -115,7 +118,8 @@ img {
 
 .score {
   display: flex;
-  gap:175px;
+  flex-wrap: wrap;
+  gap:155px;
   font-size: 30px;
   color: #d5dcdc;
   margin-top: 45px;
