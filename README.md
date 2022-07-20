@@ -1,5 +1,9 @@
 DEMO HERE ---->    https://setback-king.github.io/memory-card/
 
+This project is a memorization game to see how many items a user can select without selecting the same item twice. Score is provided upon game completion. 
+
+<img width="1661" alt="Screen Shot 2022-07-20 at 11 47 37 AM" src="https://user-images.githubusercontent.com/90795553/180026541-331f8936-3ecc-466e-9210-b50edec71fb2.png">
+
 
 # Getting Started with Create React App
 
